@@ -1,6 +1,6 @@
 # vue_ghost
 
-> A Vue.js project
+> Ghost博客平台的响应式布局
 
 ## Build Setup
 
