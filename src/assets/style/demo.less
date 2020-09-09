@@ -1,0 +1,24 @@
+@import url('~@/assets/style/color.less');
+
+#item (@minheight:400px){
+    background-color: #color[bgnavbarcolor];
+    min-height: @minheight;
+    border-radius: #border[radius];
+}
+#border{
+    radius: 10px;
+    border:1px solid #color[borderline];
+    border2:1px solid #color[borderline2]
+}
+
+#noborder{
+    border: none;
+    outline: none;
+}
+
+#aline(@width:4ch){
+    width: @width;
+    height: 1px;
+    background-color: #color[aline];
+    color: #color[aline];
+}
